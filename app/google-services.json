@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "486153042366",
+    "project_id": "credentialmanager-db96c",
+    "storage_bucket": "credentialmanager-db96c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486153042366:android:d9635a99d66810e607e1ef",
+        "android_client_info": {
+          "package_name": "com.ashmit.googlecredentialmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486153042366-matjp5u0li4jlbgn0to3rc21bp8kotf6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ashmit.googlecredentialmanager",
+            "certificate_hash": "3ad7fbafbddcc5457afc5d75c6f9fba919a2d61b"
+          }
+        },
+        {
+          "client_id": "486153042366-o41o1mvn80nn01t38piniqscphibdng9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAOrEtnefKjpW6-RhZaTGyWjNJOWRpWSw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486153042366-o41o1mvn80nn01t38piniqscphibdng9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
