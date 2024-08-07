@@ -1,7 +1,12 @@
 package com.ashmit.googlecredentialmanager
 
+import android.graphics.drawable.Icon
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.rounded.ArrowBack
+import androidx.compose.material3.Button
+import androidx.compose.material3.Icon
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -75,6 +80,11 @@ fun HomeScreen(
                     maxLines = 1,
                     overflow = TextOverflow.Ellipsis
                 )
+            }
+            Button(onClick = onSignOutClick,
+                Modifier.fillMaxWidth()) {
+                Text(text = "SignOut", style = textStyle)
+                Icon(imageVector = Icons.AutoMirrored.Rounded.ArrowBack, contentDescription ="SignOut")
             }
         }
     }
